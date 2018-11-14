@@ -1,0 +1,107 @@
+
+  .container-fluid{
+    padding: 0px;
+  }
+  
+  
+  .masthead {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 3rem;
+    z-index: 2;
+  }
+  
+  .masthead .masthead-bg {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(to right, rgb(118, 93, 165), rgb(89, 117, 212));
+    -webkit-transform: skewY(3deg);
+    transform: skewY(3deg);
+    -webkit-transform-origin: bottom right;
+    transform-origin: bottom right;
+
+  }
+
+
+  .masthead .masthead-bg .welcome img{
+    padding-bottom: 200px;
+  }
+
+  .textwelcome{
+      text-align: center;
+      padding-top: 10%;
+      color: white;
+      
+  }
+
+  .textwelcome h1{
+    border: 1px solid white;
+    padding: 2%;
+    font-family: 'Lato', sans-serif;
+}
+
+  .card{
+    width: 318px;
+    height: 321px;
+    margin-top: 3%;
+    
+  }
+
+  .lists{
+    text-align: center;
+    padding-top: 190px;
+  }
+
+  .lists h6, a{
+    color: white;
+  }
+
+ .btn-success {
+  font-family: Raleway-SemiBold;
+  font-size: 13px;
+  color: rgba(103, 192, 103, 0.75);
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid rgba(103, 192, 103, 0.75);
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+}
+
+.register{
+  color:white;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 576px) {
+    .textwelcome h1{
+      font-size: 25px;
+    }
+    .textwelcome h2{
+      font-size: 20px;
+    }
+    .textwelcome h3{
+      font-size: 17px;
+    }
+
+    .masthead .masthead-bg{
+      height: 400px;
+    }
+
+    .textpictures{
+      height: 1400px;
+    }
+  }
+
+  @media screen and (min-width: 880px) {
+    .footer-bg{
+      clip-path: polygon(
+        0 40%,
+        0 100%,
+        100% 100%,
+        100% calc(100% - 27vw));
+    }
+  }
+
+
